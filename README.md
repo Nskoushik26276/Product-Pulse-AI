@@ -1,6 +1,7 @@
 # Product-Pulse-AI
 ProductPulse-AI is a Python-based tool designed to help entrepreneurs, product managers, and innovators validate and refine product ideas before launch. It leverages web scraping, sentiment analysis, and trend evaluation to provide actionable insights and a success likelihood score.
 
+
 **Overview**
 Launching a product is risky, especially without understanding existing competition, market trends, and user sentiment. ProductPulse-AI automates the research process by:
 - Checking for similar products online  
@@ -10,6 +11,7 @@ Launching a product is risky, especially without understanding existing competit
 - Computing a success score and providing a launch strategy  
 
 **"This helps founders save time, validate ideas, and make informed decisions before investing in production and marketing."**
+
 
 **Features**
 - **Idea Availability Check**: Determines if similar products already exist online.  
@@ -21,8 +23,8 @@ Launching a product is risky, especially without understanding existing competit
 - **Actionable Recommendations**: Provides go-to-market strategy, content plan, launch timeline, and product improvement suggestions.  
 - **Interactive CLI**: Guides users through multiple product evaluations in a single session.
 
-  **How It Works**
 
+  **How It Works**
 1. **Idea Check**:  
    - The tool searches for existing commercial pages of the product.  
    - If similar products exist, the user is prompted to try a different idea.  
@@ -46,10 +48,11 @@ Launching a product is risky, especially without understanding existing competit
    - Lists key action items and product modifications based on negative feedback.  
    - Optionally generates a ready-to-use LLM prompt for an 8-week marketing plan.
 
+
 **Key Technologies**
-1.Python 3.x
-2.Transformers (Hugging Face) – DistilBERT for sentiment analysis
-3.Google Trends API (pytrends) – Trend and regional interest analysis
-4.Web Scraping – requests + BeautifulSoup4
-5.Search Automation – googlesearch-python
-6.Data Processing – numpy, pandas, scikit-learn
+-1.Python 3.x
+-2.Transformers (Hugging Face) – DistilBERT for sentiment analysis
+-3.Google Trends API (pytrends) – Trend and regional interest analysis
+-4.Web Scraping – requests + BeautifulSoup4
+-5.Search Automation – googlesearch-python
+-6.Data Processing – numpy, pandas, scikit-learn
