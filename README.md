@@ -50,9 +50,9 @@ Launching a product is risky, especially without understanding existing competit
 
 
 **Key Technologies**
--1.Python 3.x
--2.Transformers (Hugging Face) – DistilBERT for sentiment analysis
--3.Google Trends API (pytrends) – Trend and regional interest analysis
--4.Web Scraping – requests + BeautifulSoup4
--5.Search Automation – googlesearch-python
--6.Data Processing – numpy, pandas, scikit-learn
+1. Python 3.x
+2. Transformers (Hugging Face) – DistilBERT for sentiment analysis
+3. Google Trends API (pytrends) – Trend and regional interest analysis
+4. Web Scraping – requests + BeautifulSoup4
+5. Search Automation – googlesearch-python
+6. Data Processing – numpy, pandas, scikit-learn
